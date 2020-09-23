@@ -1,0 +1,91 @@
+#header {
+    text-align: left;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    color: #edc988;
+    margin-top: 10px;
+    margin-left: 5%;
+}
+
+#header-bawah{
+    text-align: center;
+    font-size: 50px;
+    color: #ffffff; 
+}
+
+#backgroundImg{
+    background-image: url(https://wallpapercave.com/wp/jqsvtBJ.jpg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%; 
+  
+}
+
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.blury{
+    opacity: 0.7;
+}
+
+.center{
+    left: 50%;
+    top: 50%;
+}
+.opening{
+    background-color: #466995;
+    border-bottom: 1px solid #466995;
+    position: sticky;
+    width: 100%;
+    top: 0;
+    z-index: 10;
+}
+.logo{
+    position: absolute;
+    right:100px;
+    top: 10px;
+}
+
+a, li, ul {
+    display: inline-block;
+    font-family: 'Oswald';
+    color: burlywood;
+    font-size: 20px;
+    margin-left: 20px;
+}
+li:hover{
+    color: #DBE9EE;
+    background-color: black ;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+a :active{
+    color: blue;
+}
+table, th, td {
+    border: 1px solid black;
+    text-align: center;
+}
+
+.article{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: black ;
+    position: relative;
+
+}
+.article p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.footer{
+    position: sticky;
+    bottom: 0;
+    background-color: white;
+    height: 50px;
+    text-align: justify;
+}
